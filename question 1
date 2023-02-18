@@ -1,0 +1,87 @@
+PAGE DESIGN TASK
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        border: 3px solid black;
+        width: 1000px;
+        height: 600px;
+        background-color: beige;
+    }
+    .head{
+        border-radius: 25px;
+        width: auto;
+        height: 70px;
+        background-color: gray;
+        text-align: center;
+    }
+    .notif{
+        border-radius: 15px;
+        width: 150px;
+        height: 400px;
+        background-color: black;
+        margin: 50px;
+    }
+    .search{
+        border-radius: 15px;
+        width: 400px;
+        height: 30px;
+        background-color: black;
+        color:beige;
+        font-weight: bold;
+        text-align:center;
+        margin-left: 350px;
+     }
+     .event1{
+        border-radius: 15px;
+        background-color: black;
+        width: 100px;
+        height: 50px;
+        margin-top: 100px;
+        margin-left: 200px;
+     }
+     .event2{
+        border-radius: 15px;
+        background-color: black;
+        width: 100px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 200px;
+        
+     }
+     .msg{
+        border-radius: 15px;
+        background-color: black;
+        width: 700px;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: 200px;
+
+     }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="head" ><b>GIT HUB</b></div>
+        <div class="notif">
+            <div class="search" >Search</div>
+            <div class="event1"></div>
+            <div class="event2"></div>
+            <div class="event3"></div>
+            <div class="msg"></div>
+        </div>
+        
+        
+        
+
+    </div>
+</body>
+</html>
