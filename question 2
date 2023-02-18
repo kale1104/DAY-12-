@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        border: 2px solid black;
+        width: 1000px;
+        height: 650px;
+    }
+    .event{
+        text-align: center;
+        font-family: cursive;
+        font-style: italic;
+        font-size: 30px;
+    
+    }
+    .seating{
+        text-align: center;
+        font-weight: lighter;
+    }
+    .id{
+        border: 1px solid black;
+        width: 800px;
+        height: 500px;
+        margin-left: 60px;
+    }
+    .photo{
+        border: 1px solid black;
+        margin: 50px 50px;
+        text-align: center;
+        width: 100px;
+        height: 70px;
+    }
+    .name,.email,.phone,.noofseats,.attende,.button,.reset{
+        text-align: center;
+        margin-inline: 200px;
+        margin-top: 20px ;
+    }
+    .button,.reset{
+        width: 100px;
+        height: 20px;
+
+    }
+
+</style>
+<body>
+   <div class="container">
+    <div class="event"><p>Event1</p></div>
+    <div class="seating">Number of available seats: 23</div>
+    <div class="id">
+        <div class="photo">Image</div>
+            <div class="name">NAME <input type="text"></div>
+            <div class="email">Email <input type="email"></div>
+            <div class="phone"> Phone no <input type="number"></div>
+            <div class="noofseats">
+                <select name="noofseats" id="noofseats">
+                    <option value="noofseats" >1</option>
+                    <option value="noofseats" >2</option>
+                    <option value="noofseats" >3</option>
+                </select>
+                
+            </div>
+            <div class="attende"> NAME OF ATTENDE <input type="text"></div>
+            <button class="button" type="submit">SUBMIT</button>
+            <button class="reset" type="reset">Reset</button>
+
+        
+    </div>
+
+   </div> 
+</body>
+</html>
